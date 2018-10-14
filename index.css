@@ -1,0 +1,94 @@
+
+/*
+Hilton Nuetey carboo
+Hilton_Carboo@student.uml.edu
+*/
+body {
+	background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+	font-family: 'K2D', sans-serif;
+	color: black;
+	margin: 0px;
+	padding: 0px;
+}
+/*This removes all bullets points from unordered list, gives it a gradient background image and aligns them right*/
+.nav ul {
+	list-style: none;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	text-align: right;
+	padding-right: 30px;
+	margin: 0;
+}
+
+
+.nav li {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+	line-height: 40px;
+    display: inline-block;
+	height: 40px;
+	padding: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	transition: .3s background-color;
+	padding: 0px;
+}
+
+
+.nav a:hover {
+	color: burlywood;
+}
+
+p {
+	font-size: 17px;
+}
+
+/*This removes all bullets points from unordered list*/
+ul {
+	list-style: none;
+}
+
+/*This changes the default look of all links created and makes them presentable and cool*/
+li>a,
+a {
+	color: red;
+	outline: none;
+	text-decoration: none;
+}
+
+/*This makes the links change color when the mouse moves over them*/
+a:hover {
+	color: orange;
+}
+
+/*This places the image in the center and gives it a curvy edge*/
+img {
+	border-radius: 25px;
+	display: block;
+	padding-top: 15px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+
+/***************************CLASSESS************************/
+
+.main {
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/******************************IDS**************************/
+
+#greeter {
+	font-size: 30px;
+}
+
